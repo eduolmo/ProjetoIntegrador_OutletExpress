@@ -92,11 +92,47 @@ https://eduolmo.github.io/outlet-web/html/index.html
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/20afd872-db35-4cf0-b4d5-6e935bcb9a85)
 
 #### 7.Descrição dos dados 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+      USUARIO: Tabela que armazena as informações dos usuários
+      Atributos: codigo (chave primária), nome, senha e email
+
+      CLIENTE: Tabela que armazena as informações dos clientes
+      Atributos: cpf
+
+      EMPRESA: Tabela que armazena as informações das empresas
+      Atributos: cnpj
+
+      COMPRA: Tabela que armazena as informações das compras
+      Atributos: codigo (chave primária) e forma_pagamento
+
+      PRODUTOS: Tabela que armazena as informações dos produtos
+      Atributos: codigo (chave primária), nome, valor, descricao e imagem
+
+      CATEGORIA_PRODUTO: Tabela que armazena as informações das categorias dos produtos
+      Atributos: codigo (chave primária) e descricao
+
+      CATEGORIA_AVARIA: Tabela que armazena as informações das categorias das avarias
+      Atributos: codigo (chave primária) e descricao
+
+      ENDERECO: Tabela que armazena as informações dos endereços
+      Atributos: codigo (chave primária), nome_logradouro, numero e cep
+
+      PAIS: Tabela que armazena as informações dos paises
+      Atributos: codigo (chave primária) e nome
+
+      TIPO_LOGRADOURO: Tabela que armazena as informações dos tipos de logradouro
+      Atributos: codigo (chave primária) e nome
+
+      ESTADO: Tabela que armazena as informações dos estados
+      Atributos: codigo (chave primária) e nome
+
+      CIDADE: Tabela que armazena as informações das cidades
+      Atributos: codigo (chave primária) e nome
+
+      BAIRRO: Tabela que armazena as informações dos bairros
+      Atributos: codigo (chave primária) e nome
+
+      COMPRA/PRODUTO(Item_compra): Tabela que armazena as informações do item da compra
+      Atributos: codigo (chave primária) e quantidade
 
 ### 8.RASTREABILIDADE DOS ARTEFATOS<br>
         a) Historia de usuários vs protótipo (Histórias de Usuário e em qual tela do protótipo aquela HU está sendo realizada).
