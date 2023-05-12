@@ -30,11 +30,14 @@ a) inclusão do PMC desenvolvido pelo grupo <br>
 #### 3.1. EAP - Estrutura Analítica do Projeto
 
 a) Incluír imagem da EAP <br>
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/b3de355c-7ac6-435c-8e11-aae83a7340a1)
+<br>
+<br>
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/b3de355c-7ac6-435c-8e11-aae83a7340a1) <br>
 
 b) Dicinário da EAP <br>
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/01c2fcea-7a12-49f6-81b9-a394723a11ec) <br>
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/8163c0fb-561f-4ff4-847a-4a1f1657458a)
+<br>
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/361ca61c-109b-4b0e-9876-fc531e12938d) <br>
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/d3fa7708-5251-4163-9cd4-e3d676de67c3) <br>
 
 
 #### 3.2. Requisitos funcionais e não funcionais
