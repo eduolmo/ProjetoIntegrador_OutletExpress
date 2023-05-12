@@ -71,14 +71,12 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo
 ### 5. PROTÓTIPOS DO SISTEMA<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser desenvolvidas. O princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas e/ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
 
-![Alt text](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discproint/template_projeto_integrador/blob/main/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
-
-#### 5.1 PROTÓTIPO DO SISTEMA MOBILE
+#### 5.1 PROTÓTIPO DO SISTEMA MOBILE<br>
+https://quant-ux.com/#/test.html?h=a2aa10aMOyeiK2Lr10qx5isrrWTqOxg6Y4TpA36sZ3EqDJZtpGTHMoyNVMFS
 
 #### 5.2 PROTÓTIPO DO SISTEMA WEB
+https://eduolmo.github.io/outlet-web/html/index.html
 
 #### 5.3 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM OS SISTEMA WEB/MOBILE PROPOSTOS?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
