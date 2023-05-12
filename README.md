@@ -79,15 +79,13 @@ https://quant-ux.com/#/test.html?h=a2aa10aMOyeiK2Lr10qx5isrrWTqOxg6Y4TpA36sZ3EqD
 https://eduolmo.github.io/outlet-web/html/index.html
 
 #### 5.3 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM OS SISTEMA WEB/MOBILE PROPOSTOS?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+> A empresa Outlet Express precisa inicialmente dos seguintes relatórios:
+* Relatório que informe a quantidade de clientes em cada país
+* Relatório que informe qual o tipo de avaria mais comum nos produtos
+* Relatório que informe qual a categoria de avaria que é mais comprada
+* Relatório que informe quantos clientes temos cadastrados nosso sistema
+* Relatório que informe qual país compra mais produtos
 
 ### 6.MODELO CONCEITUAL<br>
     A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
