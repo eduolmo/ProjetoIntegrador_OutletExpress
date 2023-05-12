@@ -140,9 +140,6 @@ https://eduolmo.github.io/outlet-web/html/index.html
         (modelos devem obrigatoriamente estar em conformidade de rastreabilidade)
 
 ### 9.MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
 
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/eaa8a2af-1949-4345-8304-c39572bcb7ea)
 
