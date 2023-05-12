@@ -88,16 +88,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
 * Relatório que informe qual país compra mais produtos
 
 ### 6.MODELO CONCEITUAL<br>
-    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
-    B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 4.
-        * informe quais são as 3 principais entidades do sistema em densenvolvimento
-      (se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
-    C) Principais fluxos de informação/entidades do sistema (mínimo 2). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
-    D) Qualidade e Clareza
-        Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas (Aplicar os conceitos de normalização abordados).   
-
+    
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/20afd872-db35-4cf0-b4d5-6e935bcb9a85)
 
 #### 7.Descrição dos dados 
