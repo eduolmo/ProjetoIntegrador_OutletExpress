@@ -305,8 +305,8 @@ https://eduolmo.github.io/outlet-web/html/index.html
             ON DELETE SET NULL;
     
 ### 11.INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>  
-      a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-      (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados 
+      DROP TABLE IF EXISTS CATEGORIA_PRODUTO,CATEGORIA_AVARIA,PAIS,TIPO_LOGRADOURO,ENDERECO,ESTADO,CIDADE,BAIRRO,USUARIO,EMPRESA,CLIENTE,COMPRA,PRODUTO,ITEM_COMPRA;
+
 
       INSERT INTO CATEGORIA_PRODUTO (codigo, descricao) VALUES
       (10, 'Eletrônicos'),
