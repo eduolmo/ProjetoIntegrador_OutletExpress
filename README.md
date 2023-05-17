@@ -305,8 +305,113 @@ https://eduolmo.github.io/outlet-web/html/index.html
             ON DELETE SET NULL;
     
 ### 11.INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>  
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados 
+      a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
+      (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados 
+
+      INSERT INTO CATEGORIA_PRODUTO (codigo, descricao) VALUES
+      (10, 'Eletrônicos'),
+      (20, 'Móveis'),
+      (30, 'Roupas'),
+      (40, 'Alimentos'),
+      (50, 'Beleza');
+
+      INSERT INTO CATEGORIA_AVARIA (codigo, descricao) VALUES
+      (11, 'Arranhado'),
+      (22, 'Quebrado'),
+      (33, 'Faltando peças'),
+      (44, 'Problemas elétricos'),
+      (55, 'Manchas e sujeira');
+
+      INSERT INTO PAIS (codigo, nome) VALUES 
+      (1, 'Brasil'), 
+      (2, 'Estados Unidos'), 
+      (3, 'Canadá'), 
+      (4, 'Austrália'), 
+      (5, 'Japão');
+
+      INSERT INTO TIPO_LOGRADOURO (codigo, nome) VALUES 
+      (1, 'Rua'), 
+      (2, 'Avenida'), 
+      (3, 'Alameda'), 
+      (4, 'Travessa'), 
+      (5, 'Praça');
+
+      INSERT INTO ENDERECO (codigo, nome_logradouro, numero, cep, FK_PAIS_codigo, FK_TIPO_LOGRADOURO_codigo) VALUES 
+      (1, 'Rua A', 10, '12345-678', 1, 1), 
+      (2, 'Avenida B', 20, '23456-789', 2, 2), 
+      (3, 'Alameda C', 30, '34567-890', 3, 3), 
+      (4, 'Travessa D', 40, '45678-901', 4, 4), 
+      (5, 'Praça E', 50, '56789-012', 5, 5);
+
+      INSERT INTO ESTADO (codigo, nome, FK_PAIS_codigo) VALUES
+      (1, 'São Paulo', 1), 
+      (2, 'Califórnia', 2), 
+      (3, 'Quebec', 3), 
+      (4, 'Nova Gales do Sul', 4),
+      (5, 'Tóquio', 5);
+
+      INSERT INTO CIDADE (codigo, nome, FK_ESTADO_codigo) VALUES 
+      (1, 'São Paulo', 1), 
+      (2, 'Los Angeles', 2),
+      (3, 'Montreal', 3), 
+      (4, 'Sydney', 4),
+      (5, 'Tóquio', 5);
+
+      INSERT INTO BAIRRO (codigo, nome, FK_CIDADE_codigo) VALUES 
+      (1, 'Vila Olímpia', 1), 
+      (2, 'Hollywood', 2), 
+      (3, 'Plateau-Mont-Royal', 3), 
+      (4, 'Bondi Beach', 4),
+      (5, 'Shinjuku', 5);
+
+      INSERT INTO USUARIO (codigo, nome, senha, email) VALUES
+      (1, 'João Silva', '123456', 'joao@example.com'),
+      (2, 'Maria Santos', 'abcdef', 'maria@example.com'),
+      (3, 'Pedro Oliveira', '789456', 'pedro@example.com'),
+      (4, 'Ana Costa', 'xyz123', 'ana@example.com'),
+      (5, 'Carlos Pereira', 'abc123', 'carlos@example.com'),
+      (6, 'Mariana Rodrigues', 'qwe123', 'mariana@example.com'),
+      (7, 'Lucas Fernandes', 'pass123', 'lucas@example.com'),
+      (8, 'Julia Lima', 'julia123', 'julia@example.com'),
+      (9, 'Rafael Souza', 'rafa456', 'rafael@example.com'),
+      (10, 'Patricia Santos', 'paty789', 'patricia@example.com');
+
+      INSERT INTO EMPRESA (cnpj, FK_USUARIO_codigo) VALUES
+      ('12345678901234', 6),
+      ('98765432109876', 7),
+      ('45678912304567', 8),
+      ('78901234506789', 9),
+      ('23456789014567', 10);
+
+      INSERT INTO CLIENTE (cpf, FK_USUARIO_codigo, FK_ENDERECO_codigo) VALUES 
+      ('12345678900', 1, 1), 
+      ('98765432100', 2, 2), 
+      ('65432198700', 3, 3), 
+      ('78945612300', 4, 4),
+      ('32165498700', 5, 5);
+
+      INSERT INTO COMPRA (forma_pagamento, codigo, FK_CLIENTE_FK_USUARIO_codigo) VALUES
+      ('Cartão de crédito', 1, 2),
+      ('Boleto bancário', 2, 3),
+      ('Pix', 3, 1),
+      ('Transferência bancária', 4, 4),
+      ('Dinheiro', 5, 5);
+
+INSERT INTO PRODUTO (codigo, nome, valor, descricao, imagem, FK_EMPRESA_FK_USUARIO_codigo, FK_CATEGORIA_PRODUTO_codigo, FK_CATEGORIA_AVARIA_codigo) VALUES 
+(1, 'Camisa Social Masculina', 89.90, 'Camisa social masculina com botões frontais', 'https://example.com/camisa-social.jpg', 6, 10, 33),
+(2, 'Calça Jeans Feminina', 129.90, 'Calça jeans feminina cintura alta', 'https://example.com/calca-jeans-feminina.jpg', 7, 30, 22),
+(3, 'Tênis Esportivo Masculino', 199.90, 'Tênis esportivo masculino para corrida', 'https://example.com/tenis-esportivo.jpg', 8, 20, 11),
+(4, 'Bolsa Feminina de Couro', 299.90, 'Bolsa feminina de couro com alça ajustável', 'https://example.com/bolsa-de-couro.jpg', 10, 50, 44),
+(5, 'Camiseta Básica Masculina', 39.90, 'Camiseta básica masculina em algodão', 'https://example.com/camiseta-basica.jpg', 9, 40, 55);
+
+INSERT INTO ITEM_COMPRA (FK_PRODUTO_codigo, FK_COMPRA_codigo, codigo, quantidade) VALUES
+(1, 1, 1, 2),
+(2, 1, 2, 1),
+(3, 2, 3, 3),
+(4, 3, 4, 2),
+(5, 3, 5, 1);
+
+        
  <br> + insert para dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
