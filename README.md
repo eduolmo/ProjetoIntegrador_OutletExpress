@@ -397,19 +397,19 @@ https://eduolmo.github.io/outlet-web/html/index.html
       ('Transferência bancária', 4, 4),
       ('Dinheiro', 5, 5);
 
-INSERT INTO PRODUTO (codigo, nome, valor, descricao, imagem, FK_EMPRESA_FK_USUARIO_codigo, FK_CATEGORIA_PRODUTO_codigo, FK_CATEGORIA_AVARIA_codigo) VALUES 
-(1, 'Camisa Social Masculina', 89.90, 'Camisa social masculina com botões frontais', 'https://example.com/camisa-social.jpg', 6, 10, 33),
-(2, 'Calça Jeans Feminina', 129.90, 'Calça jeans feminina cintura alta', 'https://example.com/calca-jeans-feminina.jpg', 7, 30, 22),
-(3, 'Tênis Esportivo Masculino', 199.90, 'Tênis esportivo masculino para corrida', 'https://example.com/tenis-esportivo.jpg', 8, 20, 11),
-(4, 'Bolsa Feminina de Couro', 299.90, 'Bolsa feminina de couro com alça ajustável', 'https://example.com/bolsa-de-couro.jpg', 10, 50, 44),
-(5, 'Camiseta Básica Masculina', 39.90, 'Camiseta básica masculina em algodão', 'https://example.com/camiseta-basica.jpg', 9, 40, 55);
+      INSERT INTO PRODUTO (codigo, nome, valor, descricao, imagem, FK_EMPRESA_FK_USUARIO_codigo, FK_CATEGORIA_PRODUTO_codigo, FK_CATEGORIA_AVARIA_codigo) VALUES 
+      (1, 'Camisa Social Masculina', 89.90, 'Camisa social masculina com botões frontais', 'https://example.com/camisa-social.jpg', 6, 10, 33),
+      (2, 'Calça Jeans Feminina', 129.90, 'Calça jeans feminina cintura alta', 'https://example.com/calca-jeans-feminina.jpg', 7, 30, 22),
+      (3, 'Tênis Esportivo Masculino', 199.90, 'Tênis esportivo masculino para corrida', 'https://example.com/tenis-esportivo.jpg', 8, 20, 11),
+      (4, 'Bolsa Feminina de Couro', 299.90, 'Bolsa feminina de couro com alça ajustável', 'https://example.com/bolsa-de-couro.jpg', 10, 50, 44),
+      (5, 'Camiseta Básica Masculina', 39.90, 'Camiseta básica masculina em algodão', 'https://example.com/camiseta-basica.jpg', 9, 40, 55);
 
-INSERT INTO ITEM_COMPRA (FK_PRODUTO_codigo, FK_COMPRA_codigo, codigo, quantidade) VALUES
-(1, 1, 1, 2),
-(2, 1, 2, 1),
-(3, 2, 3, 3),
-(4, 3, 4, 2),
-(5, 3, 5, 1);
+      INSERT INTO ITEM_COMPRA (FK_PRODUTO_codigo, FK_COMPRA_codigo, codigo, quantidade) VALUES
+      (1, 1, 1, 2),
+      (2, 1, 2, 1),
+      (3, 2, 3, 3),
+      (4, 3, 4, 2),
+      (5, 3, 5, 1);
 
         
  <br> + insert para dados a serem inseridos)
