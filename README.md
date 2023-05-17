@@ -144,8 +144,6 @@ https://eduolmo.github.io/outlet-web/html/index.html
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/eaa8a2af-1949-4345-8304-c39572bcb7ea)
 
 ### 10.MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
 
         CREATE TABLE USUARIO (
             codigo serial PRIMARY KEY,
