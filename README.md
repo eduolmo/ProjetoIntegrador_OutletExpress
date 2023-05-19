@@ -432,14 +432,15 @@ https://eduolmo.github.io/outlet-web/html/index.html
       group by pais.nome
       order by count(cliente.FK_USUARIO_codigo) desc;
       
-      ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/6b9eb0b9-34a2-44d7-8d32-42d385a0e6a0)
-
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/784164e2-63ea-42c5-adc0-63ab79b85fdf)
 
       /* Relatório que informe qual o tipo de avaria mais comum nos produtos */
       select ca.descricao, count(produto.FK_CATEGORIA_AVARIA_codigo) as produtos from categoria_avaria as ca
       inner join produto
       on(produto.FK_CATEGORIA_AVARIA_codigo = ca.codigo)
       group by ca.descricao;
+      
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/3bd3c772-e458-48f3-909b-d2c34aed729c)
 
       /* Relatório que informe qual a categoria de avaria que é mais comprada */
       select ca.descricao, sum(ic.quantidade) from categoria_avaria as ca
@@ -448,6 +449,8 @@ https://eduolmo.github.io/outlet-web/html/index.html
       inner join item_compra as ic
       on(ic.FK_PRODUTO_codigo = produto.codigo)
       group by ca.descricao;
+      
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/fa0b23f9-e581-41aa-97c5-808e2406a7c3)
 
       /* Relátorio que informe quantos produtos cada empresa tem no sistema */
       select usuario.nome, count(produto.FK_EMPRESA_FK_USUARIO_codigo) from usuario
@@ -456,6 +459,8 @@ https://eduolmo.github.io/outlet-web/html/index.html
       inner join produto
       on(produto.FK_EMPRESA_FK_USUARIO_codigo = empresa.FK_USUARIO_codigo)
       group by usuario.nome;
+      
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/cde65985-7bd4-48ed-9209-4d587879716a)
 
       /* Relatório que informe categoria de produto é mais comprada */
       select cp.descricao, sum(ic.quantidade) from categoria_produto as cp
@@ -465,6 +470,8 @@ https://eduolmo.github.io/outlet-web/html/index.html
       on(ic.FK_PRODUTO_codigo = produto.codigo)
       group by cp.descricao
       order by sum(ic.quantidade) desc;
+      
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/0e727e21-9d0e-4130-a682-1fc72bd4eb47)
 
 
  ### 13.Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
