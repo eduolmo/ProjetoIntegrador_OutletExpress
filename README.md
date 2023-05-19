@@ -431,6 +431,9 @@ https://eduolmo.github.io/outlet-web/html/index.html
       on(pais.codigo = endereco.FK_PAIS_codigo)
       group by pais.nome
       order by count(cliente.FK_USUARIO_codigo) desc;
+      
+      ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/6b9eb0b9-34a2-44d7-8d32-42d385a0e6a0)
+
 
       /* Relatório que informe qual o tipo de avaria mais comum nos produtos */
       select ca.descricao, count(produto.FK_CATEGORIA_AVARIA_codigo) as produtos from categoria_avaria as ca
