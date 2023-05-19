@@ -454,12 +454,13 @@ https://eduolmo.github.io/outlet-web/html/index.html
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/549afc30-eaa9-4850-9984-dfc490a6d964)
 
       /* Relátorio que informe quantos produtos cada empresa tem no sistema */
-      select usuario.nome, count(produto.FK_EMPRESA_FK_USUARIO_codigo) from usuario
+      select usuario.nome, count(produto.FK_EMPRESA_FK_USUARIO_codigo) as qtd_produtos from usuario
       inner join empresa
       on(empresa.FK_USUARIO_codigo = usuario.codigo)
       inner join produto
       on(produto.FK_EMPRESA_FK_USUARIO_codigo = empresa.FK_USUARIO_codigo)
-      group by usuario.nome;
+      group by usuario.nome
+      order by count(produto.FK_EMPRESA_FK_USUARIO_codigo) desc;
       
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/cde65985-7bd4-48ed-9209-4d587879716a)
 
