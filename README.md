@@ -422,6 +422,47 @@ https://eduolmo.github.io/outlet-web/html/index.html
           a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
          <br>
           b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
+          
+/* Relatório que informe a quantidade de clientes em cada país */
+select pais.nome, count(cliente.FK_USUARIO_codigo) as clientes from cliente
+inner join endereco
+on(cliente.FK_ENDERECO_codigo = endereco.codigo)
+inner join pais
+on(pais.codigo = endereco.FK_PAIS_codigo)
+group by pais.nome
+order by count(cliente.FK_USUARIO_codigo) desc;
+
+/* Relatório que informe qual o tipo de avaria mais comum nos produtos */
+select ca.descricao, count(produto.FK_CATEGORIA_AVARIA_codigo) as produtos from categoria_avaria as ca
+inner join produto
+on(produto.FK_CATEGORIA_AVARIA_codigo = ca.codigo)
+group by ca.descricao;
+
+/* Relatório que informe qual a categoria de avaria que é mais comprada */
+select ca.descricao, sum(ic.quantidade) from categoria_avaria as ca
+inner join produto
+on(ca.codigo = produto.FK_CATEGORIA_AVARIA_codigo)
+inner join item_compra as ic
+on(ic.FK_PRODUTO_codigo = produto.codigo)
+group by ca.descricao;
+
+/* Relátorio que informe quantos produtos cada empresa tem no sistema */
+select usuario.nome, count(produto.FK_EMPRESA_FK_USUARIO_codigo) from usuario
+inner join empresa
+on(empresa.FK_USUARIO_codigo = usuario.codigo)
+inner join produto
+on(produto.FK_EMPRESA_FK_USUARIO_codigo = empresa.FK_USUARIO_codigo)
+group by usuario.nome;
+
+/* Relatório que informe categoria de produto é mais comprada */
+select cp.descricao, sum(ic.quantidade) from categoria_produto as cp
+inner join produto
+on(cp.codigo = produto.FK_CATEGORIA_PRODUTO_codigo)
+inner join item_compra as ic
+on(ic.FK_PRODUTO_codigo = produto.codigo)
+group by cp.descricao
+order by sum(ic.quantidade) desc;
+
 
  ### 13.Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
      OBS: Observe as instruções relacionadas a cada uma das atividades abaixo.<br>
