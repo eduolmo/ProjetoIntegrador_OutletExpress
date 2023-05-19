@@ -443,14 +443,15 @@ https://eduolmo.github.io/outlet-web/html/index.html
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/3bd3c772-e458-48f3-909b-d2c34aed729c)
 
       /* Relatório que informe qual a categoria de avaria que é mais comprada */
-      select ca.descricao, sum(ic.quantidade) from categoria_avaria as ca
+      select ca.descricao, sum(ic.quantidade) as qtd_produtos from categoria_avaria as ca
       inner join produto
       on(ca.codigo = produto.FK_CATEGORIA_AVARIA_codigo)
       inner join item_compra as ic
       on(ic.FK_PRODUTO_codigo = produto.codigo)
-      group by ca.descricao;
+      group by ca.descricao
+      order by sum(ic.quantidade) desc;
       
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/fa0b23f9-e581-41aa-97c5-808e2406a7c3)
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/549afc30-eaa9-4850-9984-dfc490a6d964)
 
       /* Relátorio que informe quantos produtos cada empresa tem no sistema */
       select usuario.nome, count(produto.FK_EMPRESA_FK_USUARIO_codigo) from usuario
