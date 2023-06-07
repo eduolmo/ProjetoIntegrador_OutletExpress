@@ -83,9 +83,7 @@ Marina deseja adquirir produtos de qualidade a preços acessíveis, sem comprome
 
 **Desafios:**
 Um dos desafios de Marina é encontrar produtos outlet de marcas que ela conhece e confia. Ela também pode ser influenciada por ofertas de outras lojas e precisa ser convencida de que o e-commerce oferece os melhores preços e qualidade. Além disso, Marina pode ter dúvidas sobre a autenticidade dos produtos outlet e espera que o e-commerce forneça informações claras e confiáveis sobre a procedência dos produtos. <br>
-a) inclusão dos Persons desenvolvidos pelo grupo<br>
-<br>
-<img src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" UserStory src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" width="500" height="300" /> <br>
+**História de usuário**<br>
 
 Carlos Mendes, um engenheiro de software aficionado por tecnologia e moda, descobriu o e-commerce de vendas de produtos outlet enquanto navegava pela internet em busca de ofertas. Impressionado com os descontos e a variedade de marcas renomadas disponíveis, ele decidiu explorar o site mais a fundo. Após ler avaliações positivas e pesquisar sobre a autenticidade dos produtos outlet, Carlos fez a compra de um par de tênis de uma marca desejada. A experiência de compra foi simples e rápida, com opções de pagamento seguras e entrega ágil. Satisfeito, Carlos tornou-se um cliente fiel, recomendando o e-commerce para amigos e continuando a buscar novas ofertas.
 <br>
