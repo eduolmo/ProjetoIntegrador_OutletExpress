@@ -159,9 +159,8 @@ https://eduolmo.github.io/outlet-web/html/index.html
       Atributos: codigo (chave primária) e quantidade
 
 ### 8.RASTREABILIDADE DOS ARTEFATOS<br>
-        a) Historia de usuários vs protótipo (Histórias de Usuário e em qual tela do protótipo aquela HU está sendo realizada).
-        b) Protótipo vs Modelo conceitual (Histórias de Usuário e em quais tabelas aquele dado está sendo registrado).
-        (modelos devem obrigatoriamente estar em conformidade de rastreabilidade)
+        ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92343021/5c4e2c94-8bab-4ee4-a39b-6ff84c010480) <br>
+        ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92343021/a9cdb6df-6142-4f0c-98bb-c6c8aa0d90d7) <br>
 
 ### 9.MODELO LÓGICO<br>
 
