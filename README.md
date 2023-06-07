@@ -60,7 +60,29 @@ b) Link para Relatório/Apresentação de resultados obtidos <br>
 https://docs.google.com/presentation/d/1wC2UMqXkExZeNRWGvXlknxjqf9vmGyY_2fWgcqEjh94/edit?usp=sharing <br>
 
 ### 4.Personas e Histórias de usuário<br>
-<img src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" Personas src="https://neilpatel.com/wp-content/uploads/2019/07/exemplo-carlos.png" width="500" height="500" /> <br>
+**Nome: Marina Souza**
+
+**Idade: 32 anos**
+
+**Profissão: Gerente de Marketing**
+
+**Descrição:**
+Marina Souza é uma mulher jovem, ativa e antenada nas últimas tendências de moda. Ela é uma profissional bem-sucedida que trabalha como gerente de marketing em uma empresa de médio porte. Marina está sempre em busca de produtos de qualidade a preços acessíveis, o que a levou a se interessar pelo seu e-commerce de vendas de produtos outlet.
+
+**Estilo de vida:**
+Marina tem uma vida agitada, com uma rotina de trabalho desafiadora e uma vida social movimentada. Ela valoriza muito a qualidade e a autenticidade dos produtos que adquire, mas também está sempre atenta aos preços e oportunidades de economia. Como é uma pessoa ocupada, ela prefere fazer compras online, pois isso economiza tempo e oferece conveniência.
+
+**Motivações:**
+Marina busca produtos outlet porque gosta de se vestir bem, mas também gosta de economizar dinheiro. Ela valoriza marcas renomadas, mas também está aberta a descobrir novas marcas emergentes. Ela busca produtos de alta qualidade, mas que possam ser adquiridos a preços mais baixos em comparação com os valores de varejo. Marina também procura por promoções exclusivas e ofertas especiais, que lhe proporcionem uma vantagem competitiva na hora de fazer suas compras.
+
+**Comportamento de compra:**
+Marina é uma compradora experiente e faz suas compras de forma planejada. Ela pesquisa os produtos com antecedência, lê avaliações, compara preços e está sempre em busca de cupons de desconto. Ela valoriza a facilidade de navegação em um site e aprecia a presença de filtros de busca, que permitem refinar suas opções de compra de acordo com suas preferências. Além disso, Marina gosta de receber recomendações personalizadas com base em seus interesses e histórico de compras.
+
+**Objetivos:**
+Marina deseja adquirir produtos de qualidade a preços acessíveis, sem comprometer seu estilo e imagem. Ela procura uma experiência de compra online fácil e agradável, com um processo de pagamento seguro e entrega rápida. Além disso, ela valoriza um excelente atendimento ao cliente e a possibilidade de devolução ou troca de produtos, caso necessário.
+
+**Desafios:**
+Um dos desafios de Marina é encontrar produtos outlet de marcas que ela conhece e confia. Ela também pode ser influenciada por ofertas de outras lojas e precisa ser convencida de que o e-commerce oferece os melhores preços e qualidade. Além disso, Marina pode ter dúvidas sobre a autenticidade dos produtos outlet e espera que o e-commerce forneça informações claras e confiáveis sobre a procedência dos produtos. <br>
 a) inclusão dos Persons desenvolvidos pelo grupo<br>
 <br>
 <img src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" UserStory src="https://miro.medium.com/max/1400/1*r5GVnOvqpMdxnGUYNRXqbg.png" width="500" height="300" /> <br>
