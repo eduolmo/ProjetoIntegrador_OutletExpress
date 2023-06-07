@@ -88,7 +88,7 @@ Um dos desafios de Marina é encontrar produtos outlet de marcas que ela conhece
 
 **História de usuário**<br>
 
-Carlos Mendes, um engenheiro de software aficionado por tecnologia e moda, descobriu o e-commerce de vendas de produtos outlet enquanto navegava pela internet em busca de ofertas. Impressionado com os descontos e a variedade de marcas renomadas disponíveis, ele decidiu explorar o site mais a fundo. Após ler avaliações positivas e pesquisar sobre a autenticidade dos produtos outlet, Carlos fez a compra de um par de tênis de uma marca desejada. A experiência de compra foi simples e rápida, com opções de pagamento seguras e entrega ágil. Satisfeito, Carlos tornou-se um cliente fiel, recomendando o e-commerce para amigos e continuando a buscar novas ofertas.
+O usuário inicia sua busca por ofertas e produtos de marca navegando pela internet. Durante essa busca, o usuário encontra o e-commerce de vendas de produtos outlet. Intrigado com a proposta do site, o usuário decide explorá-lo mais a fundo para verificar as ofertas disponíveis. O usuário lê avaliações e realiza pesquisas adicionais para confirmar a autenticidade dos produtos outlet e a reputação do e-commerce. Após encontrar um item desejado a um preço atrativo, o usuário decide realizar a compra. O usuário adiciona o produto ao carrinho e passa pelo processo de checkout, selecionando opções de pagamento seguras e fornecendo as informações necessárias.
 <br>
 
 
