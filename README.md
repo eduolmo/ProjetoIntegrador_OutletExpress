@@ -419,61 +419,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
 #### 12.PRINCIPAIS CONSULTAS DO SISTEMA 
  Inserir as principais consultas (relativas aos 5 principais relatórios) definidas previamente no iten 3.1 deste template.
  <br>
-          a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
-         <br>
-          b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.<br>
-          
-      /* Relatório que informe a quantidade de clientes em cada país */
-      select pais.nome, count(cliente.FK_USUARIO_codigo) as clientes from cliente
-      inner join endereco
-      on(cliente.FK_ENDERECO_codigo = endereco.codigo)
-      inner join pais
-      on(pais.codigo = endereco.FK_PAIS_codigo)
-      group by pais.nome
-      order by count(cliente.FK_USUARIO_codigo) desc;
-      
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/784164e2-63ea-42c5-adc0-63ab79b85fdf)
-
-      /* Relatório que informe qual o tipo de avaria mais comum nos produtos */
-      select ca.descricao, count(produto.FK_CATEGORIA_AVARIA_codigo) as produtos from categoria_avaria as ca
-      inner join produto
-      on(produto.FK_CATEGORIA_AVARIA_codigo = ca.codigo)
-      group by ca.descricao;
-      
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/3bd3c772-e458-48f3-909b-d2c34aed729c)
-
-      /* Relatório que informe qual a categoria de avaria que é mais comprada */
-      select ca.descricao, sum(ic.quantidade) as qtd_produtos from categoria_avaria as ca
-      inner join produto
-      on(ca.codigo = produto.FK_CATEGORIA_AVARIA_codigo)
-      inner join item_compra as ic
-      on(ic.FK_PRODUTO_codigo = produto.codigo)
-      group by ca.descricao
-      order by sum(ic.quantidade) desc;
-      
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/549afc30-eaa9-4850-9984-dfc490a6d964)
-
-      /* Relátorio que informe quantos produtos cada empresa tem no sistema */
-      select usuario.nome, count(produto.FK_EMPRESA_FK_USUARIO_codigo) as qtd_produtos from usuario
-      inner join empresa
-      on(empresa.FK_USUARIO_codigo = usuario.codigo)
-      inner join produto
-      on(produto.FK_EMPRESA_FK_USUARIO_codigo = empresa.FK_USUARIO_codigo)
-      group by usuario.nome
-      order by count(produto.FK_EMPRESA_FK_USUARIO_codigo) desc;
-      
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/cde65985-7bd4-48ed-9209-4d587879716a)
-
-      /* Relatório que informe categoria de produto é mais comprada */
-      select cp.descricao, sum(ic.quantidade) from categoria_produto as cp
-      inner join produto
-      on(cp.codigo = produto.FK_CATEGORIA_PRODUTO_codigo)
-      inner join item_compra as ic
-      on(ic.FK_PRODUTO_codigo = produto.codigo)
-      group by cp.descricao
-      order by sum(ic.quantidade) desc;
-      
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/0e727e21-9d0e-4130-a682-1fc72bd4eb47)
+ https://colab.research.google.com/drive/1ZnpA0X4H9BlJvHY8QPNBKeYX-yIJjxp3?usp=sharing
 
 
  ### 13.Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
