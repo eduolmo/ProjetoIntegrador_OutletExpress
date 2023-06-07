@@ -88,7 +88,7 @@ Um dos desafios de Marina é encontrar produtos outlet de marcas que ela conhece
 
 **História de usuário**<br>
 
-O usuário inicia sua busca por ofertas e produtos de marca navegando pela internet. Durante essa busca, o usuário encontra o e-commerce de vendas de produtos outlet. Intrigado com a proposta do site, o usuário decide explorá-lo mais a fundo para verificar as ofertas disponíveis. O usuário lê avaliações e realiza pesquisas adicionais para confirmar a autenticidade dos produtos outlet e a reputação do e-commerce. Após encontrar um item desejado a um preço atrativo, o usuário decide realizar a compra. O usuário adiciona o produto ao carrinho e passa pelo processo de checkout, selecionando opções de pagamento seguras e fornecendo as informações necessárias.
+O usuário inicia sua busca por ofertas e produtos de marca navegando pela internet. Durante essa busca, o usuário encontra o e-commerce de vendas de produtos outlet. Intrigado com a proposta do site, o usuário decide explorá-lo mais a fundo para verificar as ofertas disponíveis. O usuário lê avaliações e realiza pesquisas adicionais para confirmar a autenticidade dos produtos outlet e a reputação do e-commerce. Após encontrar um item desejado a um preço atrativo, o usuário decide realizar a compra. O usuário se cadastra ou faz login no site para poder finalizar a compra. O usuário adiciona o produto ao carrinho e passa pelo processo de checkout, selecionando opções de pagamento seguras e fornecendo as informações necessárias.
 <br>
 
 
