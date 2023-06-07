@@ -160,7 +160,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
 
 ### 8.RASTREABILIDADE DOS ARTEFATOS<br>
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92343021/d159fa00-3bd7-4beb-9649-7eaaf8e2587f) <br>
-<br>![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92343021/a9cdb6df-6142-4f0c-98bb-c6c8aa0d90d7) 
+<br>![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92343021/be98b134-22f2-440d-9dc9-86d8658cfbf5)
 
 ### 9.MODELO LÓGICO<br>
 
