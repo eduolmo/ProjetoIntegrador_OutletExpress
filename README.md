@@ -113,7 +113,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
 
 ### 6.MODELO CONCEITUAL<br>
     
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/840994bf-53f0-4a5b-9d64-87af64a6ab8c)
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/5f1516c8-6302-4120-b9d6-fe044897dacd)
 
 #### 7.Descrição dos dados 
       USUARIO: Tabela que armazena as informações dos usuários
@@ -164,7 +164,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
 
 ### 9.MODELO LÓGICO<br>
 
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/92120359/9105f9f4-d104-4d1b-a788-f0d636637997)
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/bc63b9bf-6b09-4c48-b3ea-395f79639c2a)
 
 ### 10.MODELO FÍSICO<br>
       DROP TABLE IF EXISTS CATEGORIA_PRODUTO,CATEGORIA_AVARIA,PAIS,TIPO_LOGRADOURO,ENDERECO,ESTADO,CIDADE,BAIRRO,USUARIO,CLIENTE,COMPRA,PRODUTO,ITEM_COMPRA;
