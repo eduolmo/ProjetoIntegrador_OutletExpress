@@ -116,14 +116,8 @@ https://eduolmo.github.io/outlet-web/html/index.html
 ![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/5f1516c8-6302-4120-b9d6-fe044897dacd)
 
 #### 7.Descrição dos dados 
-      USUARIO: Tabela que armazena as informações dos usuários
-      Atributos: codigo (chave primária), nome, senha e email
-
       CLIENTE: Tabela que armazena as informações dos clientes
-      Atributos: cpf
-
-      EMPRESA: Tabela que armazena as informações das empresas
-      Atributos: cnpj
+      Atributos: codigo (chave primária), cpf, nome, senha e email
 
       COMPRA: Tabela que armazena as informações das compras
       Atributos: codigo (chave primária) e forma_pagamento
