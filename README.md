@@ -165,7 +165,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
 ### 10.MODELO FÍSICO<br>
       DROP TABLE IF EXISTS CATEGORIA_PRODUTO,CATEGORIA_AVARIA,PAIS,TIPO_LOGRADOURO,ENDERECO,ESTADO,CIDADE,BAIRRO,USUARIO,CLIENTE,COMPRA,PRODUTO,ITEM_COMPRA;
 
-     /* Lógico_1: */
+     /* Lógico_PI: */
 
       CREATE TABLE USUARIO (
           cpf varchar(20),
@@ -236,7 +236,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
       CREATE TABLE COMPRA (
           codigo serial PRIMARY KEY,
           forma_pagamento varchar(50),
-          FK_CLIENTE_codigo serial
+          FK_USUARIO_codigo serial
       );
 
       CREATE TABLE Item_compra (
@@ -246,7 +246,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
           quantidade integer
       );
 
-      ALTER TABLE CLIENTE ADD CONSTRAINT FK_CLIENTE_2
+      ALTER TABLE USUARIO ADD CONSTRAINT FK_USUARIO_2
           FOREIGN KEY (FK_ENDERECO_codigo)
           REFERENCES ENDERECO (codigo)
           ON DELETE RESTRICT;
@@ -287,8 +287,8 @@ https://eduolmo.github.io/outlet-web/html/index.html
           ON DELETE RESTRICT;
 
       ALTER TABLE COMPRA ADD CONSTRAINT FK_COMPRA_2
-          FOREIGN KEY (FK_CLIENTE_codigo)
-          REFERENCES CLIENTE (codigo)
+          FOREIGN KEY (FK_USUARIO_codigo)
+          REFERENCES USUARIO (codigo)
           ON DELETE RESTRICT;
 
       ALTER TABLE Item_compra ADD CONSTRAINT FK_Item_compra_2
