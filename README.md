@@ -113,10 +113,10 @@ https://eduolmo.github.io/outlet-web/html/index.html
 
 ### 6.MODELO CONCEITUAL<br>
     
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/3c3806d3-342b-4ccb-8f35-671c4db1baab)
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/90b99daa-c946-43d3-9712-4d3d93811985)
 
 #### 7.Descrição dos dados 
-      CLIENTE: Tabela que armazena as informações dos clientes
+      USUÁRIO: Tabela que armazena as informações dos clientes
       Atributos: codigo (chave primária), cpf, nome, senha e email
 
       COMPRA: Tabela que armazena as informações das compras
@@ -160,14 +160,14 @@ https://eduolmo.github.io/outlet-web/html/index.html
 
 ### 9.MODELO LÓGICO<br>
 
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/945392a4-412b-4fc3-947b-bff3a07df018)
+![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/4700e0f6-65b7-4fa7-890b-ae5b6e39f89e)
 
 ### 10.MODELO FÍSICO<br>
       DROP TABLE IF EXISTS CATEGORIA_PRODUTO,CATEGORIA_AVARIA,PAIS,TIPO_LOGRADOURO,ENDERECO,ESTADO,CIDADE,BAIRRO,USUARIO,CLIENTE,COMPRA,PRODUTO,ITEM_COMPRA;
 
      /* Lógico_1: */
 
-      CREATE TABLE CLIENTE (
+      CREATE TABLE USUARIO (
           cpf varchar(20),
           codigo serial PRIMARY KEY,
           email varchar(100),
