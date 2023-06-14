@@ -420,7 +420,8 @@ https://eduolmo.github.io/outlet-web/html/index.html
 
 
  ### 13.Gráficos, relatórios, integração com Linguagem de programação e outras solicitações.<br>
-     https://colab.research.google.com/drive/1ZnpA0X4H9BlJvHY8QPNBKeYX-yIJjxp3?usp=sharing
+https://colab.research.google.com/drive/1ZnpA0X4H9BlJvHY8QPNBKeYX-yIJjxp3?usp=sharing
+
  #### 13.1	Integração com Linguagem de programação; <br>
  #### 13.2	Desenvolvimento de gráficos/relatórios pertinentes, juntamente com demais <br>
  #### solicitações feitas pelo professor. <br>
