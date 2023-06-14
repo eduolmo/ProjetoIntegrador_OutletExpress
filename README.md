@@ -105,11 +105,11 @@ https://eduolmo.github.io/outlet-web/html/index.html
 #### 5.3 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM OS SISTEMA WEB/MOBILE PROPOSTOS?
     
 > A empresa Outlet Express precisa inicialmente dos seguintes relatórios:
-* Relatório que informe a quantidade de clientes em cada país
+* Relatório que informe a quantidade de clientes em cada estado
 * Relatório que informe qual o tipo de avaria mais comum nos produtos
 * Relatório que informe qual a categoria de avaria que é mais comprada
-* Relatório que informe quantos clientes temos cadastrados nosso sistema
-* Relatório que informe qual país compra mais produtos
+* Relatório que informe categoria de produto é mais comprada
+* Relatorio que informe a quantidade de produtos comprados por cada cliente
 
 ### 6.MODELO CONCEITUAL<br>
     
