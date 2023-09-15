@@ -113,7 +113,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
 
 ### 6.MODELO CONCEITUAL<br>
     
-![image](https://github.com/eduolmo/Projeto_Integrador_Outlet/assets/91472785/90b99daa-c946-43d3-9712-4d3d93811985)
+![image](https://github.com/eduolmo/ProjetoIntegrador_OutletExpress/assets/91472785/63c67436-1ffa-45f0-9e90-79d148515280)
 
 #### 7.Descrição dos dados 
       USUÁRIO: Tabela que armazena as informações dos clientes
