@@ -1,0 +1,46 @@
+INSERT INTO CATEGORIA_PRODUTO (descricao)
+VALUES
+('Móvel'),
+('Roupa'),
+('Calçado'),
+('Eletrônico'),
+('Eletrodoméstico');
+
+INSERT INTO CATEGORIA_AVARIA (descricao)
+VALUES
+('Arranhão'),
+('Amassado'),
+('Mancha'),
+('Embalagem danificada'),
+('Modelo antigo'),
+('Peça ausente ou substituída'),
+('Item de devolução'),
+('Pequeno defeito funcional');
+
+INSERT INTO PAIS (nome)
+VALUES
+('Brasil'),
+('Estados Unidos'),
+('Argentina'),
+('México'),
+('Espanha');
+
+INSERT INTO TIPO_LOGRADOURO (nome)
+VALUES
+('Rua'),
+('Avenida'),
+('Estrada'),
+('Calçadão');
+
+INSERT INTO EMPRESA (cnpj, link, FK_USUARIO_codigo)
+VALUES
+('12.345.678/0001-90', '', 1),
+('23.456.789/0001-45', '', 2),
+('34.567.890/0001-23', '', 3),
+('45.678.901/0001-34', '', 4),
+('56.789.012/0001-56', '', 5),
+('67.890.123/0001-67', '', 6);
+
+INSERT INTO PRODUTO (nome, imagem, descricao, valor_atual, avaliacao, desconto, FK_CATEGORIA_PRODUTO_codigo, FK_CATEGORIA_AVARIA_codigo, FK_EMPRESA_FK_USUARIO_codigo)
+VALUES
+
