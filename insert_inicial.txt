@@ -34,12 +34,26 @@ VALUES
 
 INSERT INTO EMPRESA (cnpj, link, FK_USUARIO_codigo)
 VALUES
-('12.345.678/0001-90', '', 1),
-('23.456.789/0001-45', '', 2),
-('34.567.890/0001-23', '', 3),
-('45.678.901/0001-34', '', 4),
-('56.789.012/0001-56', '', 5),
-('67.890.123/0001-67', '', 6);
+/* Bianchi (moveis) */
+('12.345.678/0001-90', 'https://www.bianchimoveis.com.br/', 1),
+/* ACP (moveis) */
+('23.456.789/0001-45', 'https://acpmoveis.com.br/', 2),
+/* Farm (roupa) */
+('34.567.890/0001-23', 'https://www.farmrio.com.br/', 3),
+/* Lacoste (roupa) */
+('45.678.901/0001-34', 'https://www.lacoste.com/br/black-friday/?gclid=EAIaIQobChMIgZunoYXEggMVng2tBh20KCisEAAYASAAEgK5yvD_BwE', 4),
+/* Arezzo (calcado) */
+('56.789.012/0001-56', 'https://www.arezzo.com.br/c/promocao?gclid=EAIaIQobChMI6aCckoXEggMV2QutBh3dQwibEAAYASAAEgKih_D_BwE', 5),
+/* Nike (calcado) */
+('67.890.123/0001-67', 'https://www.nike.com.br/?gclid=EAIaIQobChMIp_n4woXEggMVHAutBh0GPQ5zEAAYASAAEgKuAfD_BwE&utm_referrer=https://www.google.com/', 6),
+/* Apple (eletronico) */
+('78.890.123/0001-78', 'https://www.apple.com/br/iphone/?afid=p238%7Cs4CasUwGV-dc_mtid_209258i342853_pcrid_675536842994_pgrid_154272763420_pexid__&cid=wwa-br-kwgo-iphone-slid--Brand-iPhone-Avail-', 7),
+/* Lenovo (eletronico) */
+('91.890.123/0001-91', 'https://www.lenovo.com/br/pt/', 8),
+/* Eletrolux (eletrodomestico) */
+('17.890.123/0001-17', 'https://loja.electrolux.com.br/', 9),
+/* Mondial (eletrodomestico) */
+('25.890.123/0001-25', 'https://www.emondial.com.br/', 10);
 
 INSERT INTO PRODUTO (nome, imagem, descricao, valor_atual, avaliacao, desconto, FK_CATEGORIA_PRODUTO_codigo, FK_CATEGORIA_AVARIA_codigo, FK_EMPRESA_FK_USUARIO_codigo)
 VALUES
