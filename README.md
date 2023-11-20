@@ -113,7 +113,7 @@ https://eduolmo.github.io/outlet-web/html/index.html
 
 ### 6.MODELO CONCEITUAL<br>
     
-![image](https://github.com/eduolmo/ProjetoIntegrador_OutletExpress/assets/92120359/647c9bb7-604c-493c-a3c7-34696a6e8758)
+![image](https://github.com/eduolmo/ProjetoIntegrador_OutletExpress/assets/91472785/d85cde08-1af8-4ae8-8b26-d0185dcb8c9c)
 
 
 #### 7.Descrição dos dados 
